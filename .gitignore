@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+google-credentials.json
+config.json
+<<<<<<< HEAD
+.env
+=======
+.env
+>>>>>>> 9889131073e8293de36c3b8324dada3b2ee30010

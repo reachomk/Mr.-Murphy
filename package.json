@@ -1,0 +1,16 @@
+{
+  "name": "bikerbot",
+  "version": "1.0.0",
+  "description": "A test bot for the \"Bikers\" chat. ",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "author": "Om K.",
+  "license": "ISC"
+}

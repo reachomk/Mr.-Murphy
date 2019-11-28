@@ -1,7 +1,7 @@
 {
-  "name": "bikerbot",
+  "name": "murphybot",
   "version": "1.0.0",
-  "description": "A test bot for the \"Bikers\" chat. ",
+  "description": "A bot for the \"AP World AVHS\" chat that mimics Mr. Murphy. ",
   "main": "main.js",
   "scripts": {
     "start": "node main.js"

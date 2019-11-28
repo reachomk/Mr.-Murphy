@@ -2,7 +2,7 @@ const deep_thoughts = [
 	"\"I guess we were kinda poor when we were kids, but we didn't know it. That's because my dad always refused to let us look at the family's financial records.\" - Jack Handy", 
 	"\"Maybe in order to understand mankind, we have to look at the word itself. Basically, it's made up of two separate words — \"mank\" and \"ind.\" What do these words mean? It's a mystery, and that's why so is mankind.\" - Jaq Huundi",
 	"\"If you go through a lot of hammers each month, I don't think it necessarily means you're a hard worker. It may just mean that you have a lot to learn about proper hammer maintenance.\" - Jake Handie", 
-	"\"If a kid asks where rain comes from, I think a cute thing to tell him is \"God is crying.\" And if he asks why God is crying, another cute thing to tell him is \"Probably because of something you did.\" - Jaik Hoondi"
+	"\"If a kid asks where rain comes from, I think a cute thing to tell him is \"God is crying.\" And if he asks why God is crying, another cute thing to tell him is \"Probably because of something you did.\" - Jaik Hoondi",
 	"\"It takes a big man to cry, but it takes a bigger man to laugh at that man.\" - Junq Hundei"
 	
 ];

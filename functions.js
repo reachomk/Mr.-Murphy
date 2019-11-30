@@ -9,10 +9,10 @@ const deep_thoughts = [
 
 exports.commands = function(message, bot) {
 	if (message.content.startsWith("!") || message.content.startsWith(".")) {
-		if (message.content.includes("deep_thoughts")||message.content.includes("deep_thought")) {
+		if (message.content.includes("deep_thoughts")|| message.content.includes("deep_thought")) {
 			message.channel.send(deep_thoughts[Math.floor(Math.random() * deep_thoughts.length)]);
 		}
-		if (message.content.includes("history_meme")) { 
+		if (message.content.includes("history_meme")|| message.content.includes("history_meme")) { 
 			history_meme(message, bot);
 		}
 		if (message.content.includes("kmtomiles")) {

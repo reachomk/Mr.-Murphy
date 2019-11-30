@@ -100,7 +100,7 @@ help = function(message) {
         value: "Sends an extremely deep thought by Jack Handy."
       },
       {
-        name: ".history_meme",
+        name: ".meme",
         value: "Sends a history meme. "
       },
       {

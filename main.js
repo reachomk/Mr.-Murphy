@@ -9,6 +9,11 @@ bot.on("ready", () => {
   bot.user.setPresence({ game: { name: "Use .help to see commands. " }});
 });
 
+bot.music.start(bot, {
+  youtubeKey: process.env.YOUTUBE_KEY,
+  botPrefix: '.' || '!',
+});
+
 bot.on("message", (message) => {
   if (message.content.startsWith("ping")) {
     message.channel.send("pong!");

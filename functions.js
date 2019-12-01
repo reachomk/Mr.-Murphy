@@ -115,6 +115,46 @@ help = function(message) {
         name: ".github",
         value: "Sends link to Mr. Murphy source code. "
       }
+      {
+        name: ".play (name)",
+        value: "Queue a song/playlist by URL or name"
+      },
+      {
+        name: ".remove",
+        value: "Remove a song from the queue by position in the queue"
+      },
+      {
+        name: ".skip",
+        value: "Skip a song or songs with skip [number]"
+      },
+      {
+        name: ".leave",
+        value: "Leaves the voice channel"
+      },
+      {
+        name: ".search",
+        value: "Searchs for up to 10 videos from YouTube"
+      },
+      {
+        name: ".pause",
+        value: "Pauses playing music"
+      },
+      {
+        name: ".volume",
+        value: "Changes the volume output of the bot."
+      },
+      {
+        name: ".queue",
+        value: "View the current queue."
+      },
+      {
+        name: ".np",
+        value: "Shows the now playing text."
+      },
+      {
+        name: ".clear",
+        value: "Clears the entire queue."
+      }
     ],
     }
     });

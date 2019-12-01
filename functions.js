@@ -114,7 +114,7 @@ help = function(message) {
       {
         name: ".github",
         value: "Sends link to Mr. Murphy source code. "
-      }
+      },
       {
         name: ".play (name)",
         value: "Queue a song/playlist by URL or name"

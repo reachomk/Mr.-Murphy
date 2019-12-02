@@ -43,28 +43,21 @@ exports.commands = function(message, bot) {
 }
 
 
-/*history_meme = function(message, bot) {
+history_meme = function(message, bot) {
 	const snekfetch = require('snekfetch');
 	exports.run = async (client, message, args) => {
     try {
         const { body } = await snekfetch
-            .get('https://www.reddit.com/r/dankmemes.json?sort=top&t=week')
+            .get('https://www.reddit.com/r/historymemes.json?sort=top&t=week')
             .query({ limit: 800 });
         const allowed = message.channel.nsfw ? body.data.children : body.data.children.filter(post => !post.data.over_18);
         if (!allowed.length) return message.channel.send('It seems we are out of fresh memes!, Try again later.');
         const randomnumber = Math.floor(Math.random() * allowed.length)
-        const embed = new Discord.RichEmbed()
-        .setColor(0x00A2E8)
-        .setTitle(allowed[randomnumber].data.title)
-        .setDescription("Posted by: " + allowed[randomnumber].data.author)
-        .setImage(allowed[randomnumber].data.url)
-        .addField("Other info:", "Up votes: " + allowed[randomnumber].data.ups + " / Comments: " + allowed[randomnumber].data.num_comments)
-        .setFooter("Memes provided by r/dankmemes")
-        message.channel.send(embed)
+        message.channel.send(allowed[randomnumber].data.url)
     } catch (err) {
         return console.log(err);
     }
-} */
+}
 
 
 history_meme = function(message, bot) { //Stolen from https://github.com/sodiumkid/Dr-Ferrel/blob/13f2bc9329983e579e1ca8b72cd7b5ad5fd0bb37/functions.js#L29

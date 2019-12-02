@@ -43,7 +43,7 @@ exports.commands = function(message, bot) {
 }
 
 
-history_meme = async (bot, message) => {
+history_meme = async (message, bot) => {
 	const snekfetch = require('snekfetch');
     try {
         const { body } = await snekfetch

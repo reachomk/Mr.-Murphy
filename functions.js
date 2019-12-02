@@ -45,7 +45,6 @@ exports.commands = function(message, bot) {
 
 history_meme = function(message, bot) {
 	const snekfetch = require('snekfetch');
-	exports.run = async (client, message, args) => {
     try {
         const { body } = await snekfetch
             .get('https://www.reddit.com/r/historymemes.json?sort=top&t=week')
@@ -60,7 +59,7 @@ history_meme = function(message, bot) {
 }
 
 
-history_meme = function(message, bot) { //Stolen from https://github.com/sodiumkid/Dr-Ferrel/blob/13f2bc9329983e579e1ca8b72cd7b5ad5fd0bb37/functions.js#L29
+/*history_meme = function(message, bot) { //Stolen from https://github.com/sodiumkid/Dr-Ferrel/blob/13f2bc9329983e579e1ca8b72cd7b5ad5fd0bb37/functions.js#L29
 	var random = (Math.floor(Math.random() * Math.floor(527))) + 1
  			var number = "";
  			if (random < 10) {
@@ -81,7 +80,7 @@ history_meme = function(message, bot) { //Stolen from https://github.com/sodiumk
  			message.channel.send({
      		file: imageName
  			});
-}
+} */
 
 kmtomiles = function(message, bot) {
 	var msg = message.content;

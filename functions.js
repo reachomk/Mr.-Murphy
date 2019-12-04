@@ -16,6 +16,9 @@ exports.commands = function(message, bot) {
 		if (message.content.includes("history_meme")|| message.content.includes("meme")) { 
 			history_meme(message, bot);
 		}
+		if (message.content.includes("animeme")) {
+			animeme(message, bot);
+		}
 		if (message.content.includes("kmtomiles")) {
 			kmtomiles(message, bot);
 		}
@@ -58,6 +61,22 @@ history_meme = async (message, bot) => {
         return console.log(err);
     }
 }
+
+animeme = async (message, bot) => {
+	const snekfetch = require('snekfetch');
+    try {
+        const { body } = await snekfetch
+            .get('https://www.reddit.com/r/animemes.json?sort=top&t=week')
+            .query({ limit: 800 });
+        const allowed = message.channel.nsfw ? body.data.children : body.data.children.filter(post => !post.data.over_18);
+        if (!allowed.length) return message.channel.send('It seems we are out of fresh memes!, Try again later.');
+        const randomnumber = Math.floor(Math.random() * allowed.length)
+        message.channel.send(allowed[randomnumber].data.url)
+    } catch (err) {
+        return console.log(err);
+    }
+}
+
 /*history_meme = function(message, bot) { //Stolen from https://github.com/sodiumkid/Dr-Ferrel/blob/13f2bc9329983e579e1ca8b72cd7b5ad5fd0bb37/functions.js#L29
 	var random = (Math.floor(Math.random() * Math.floor(527))) + 1
  			var number = "";

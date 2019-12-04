@@ -11,7 +11,7 @@ bot.on("ready", () => {
 
 bot.music.start(bot, {
   youtubeKey: process.env.YOUTUBE_KEY,
-  botPrefix: '.' || '!',
+  botPrefix: '.',
 });
 
 bot.on("message", (message) => {

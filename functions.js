@@ -12,24 +12,31 @@ exports.commands = function(message, bot) {
 	if (message.content.startsWith(".")) {
 		if (message.content.includes("deep_thoughts")|| message.content.includes("deep_thought")) {
 			message.channel.send(deep_thoughts[Math.floor(Math.random() * deep_thoughts.length)]);
-		}
-		if (message.content.includes("history_meme")|| message.content.includes("meme")) { 
-			history_meme(message, bot);
+			return;
 		}
 		if (message.content.includes("animeme")) {
 			animeme(message, bot);
+			return;
+		}
+		if (message.content.includes("history_meme")|| message.content.includes("meme")) { 
+			history_meme(message, bot);
+			return;
 		}
 		if (message.content.includes("kmtomiles")) {
 			kmtomiles(message, bot);
+			return;
 		}
 		if (message.content.includes("milestokm")) {
 			milestokm(message, bot);
+			return;
 		}
 		if (message.content.includes("github")) {
 			message.channel.send("https://github.com/reachomk/Mr.-Murphy");
+			return;
 		}
 		if (message.content.includes("help")) {
 			help(message);
+			return;
 		}
 	}
 	else if (message.content.includes("km to miles")) {

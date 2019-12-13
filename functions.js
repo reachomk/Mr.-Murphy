@@ -30,6 +30,10 @@ exports.commands = function(message, bot) {
 			milestokm(message, bot);
 			return;
 		}
+		if (message.content.includes("finals")) {
+			finals(message, bot);
+			return;
+		}
 		if (message.content.includes("github")) {
 			message.channel.send("https://github.com/reachomk/Mr.-Murphy");
 			return;
@@ -142,6 +146,16 @@ kmtomiles = function(message, bot) {
 	var msgArr = msg.split(" ");
 	var km = parseInt(msgArr[1]);
 	message.channel.send(km/1.609 + " miles. ");
+}
+
+
+finals = function(message, bot) {
+	var msg = message.content;
+	var msgArr = msg.split(" ");
+	var current = parseInt(msgArr[1]);
+	var want = parseInt(msgArr[2]);
+	var out = (want − current * (1 − 0.234)) / 0.234
+	message.channel.send("You need "+ out + "% on the final to get what you want. ");
 }
 
 kmtomiles = function(km, message, bot) {

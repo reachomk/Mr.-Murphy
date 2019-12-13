@@ -154,7 +154,7 @@ finals = function(message, bot) {
 	var msgArr = msg.split(" ");
 	var current = parseInt(msgArr[1]);
 	var want = parseInt(msgArr[2]);
-	var out = ((want−current*(1−0.234))/0.234);
+	const out = ((want−current*(1−0.234))/0.234);
 	message.channel.send("You need "+ out + "% on the final to get what you want. ");
 }
 

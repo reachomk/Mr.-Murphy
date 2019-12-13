@@ -1,4 +1,4 @@
-	this.quotes = [
+	const deep_thoughts = [
 	"When you're riding in a time machine way far into the future, don't stick your elbow out the window, or it'll turn into a fossil.",
 	"If you were a pirate, you know what would be the one thing that would really make you mad? Treasure chests with no handles. How the hell are you supposed to carry it?!",
 	"Better not take a dog on the space shuttle, because if he sticks his head out when you're coming home his face might burn up.",

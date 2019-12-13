@@ -1,9 +1,9 @@
-const deep_thoughts = require('./deep_thoughts.js')
+const deep_thoughts = require('./deep_thoughts.js').quotes
 
 exports.commands = function(message, bot) {
 	if (message.content.startsWith(".")) {
 		if (message.content.includes("deep_thoughts")|| message.content.includes("deep_thought")) {
-			message.channel.send(deep_thoughts.quotes[Math.floor(Math.random() * deep_thoughts.quotes.length)] + " - Jaq Huundi");
+			message.channel.send(deep_thoughts[Math.floor(Math.random() * deep_thoughts.length)] + " - Jaq Huundi");
 			return;
 		}
 		if (message.content.includes("animeme")) {

@@ -138,3 +138,4 @@ const quotes = [
 	"I wonder if Dracula ever has ticks.",
 	"If there was a terrible storm outside, but somehow this dog lived through the storm, and he showed up at your door when the storm was finally over, I think a good name for him would be Carl."
 	]
+	exports.quotes = quotes;

@@ -210,6 +210,10 @@ help = function(message) {
         value: "Converts (number) km to miles. Can also be accessed by \"(number) km to miles. \""
       },
       {
+        name: ".finals (current) (want)",
+        value: "Calculates how much % you need on the final to get your desired grade. "
+      },
+      {
         name: ".github",
         value: "Sends link to Mr. Murphy source code. "
       },

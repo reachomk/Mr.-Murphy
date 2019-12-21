@@ -18,7 +18,7 @@ exports.commands = function(message, bot) {
 			dank(message, bot);
 			return;
 		}
-		if (message.content.includes("history_meme")|| message.content.includes("meme")) { 
+		if (message.content.includes("history_meme")|| message.content.includes("meme")) {
 			history_meme(message, bot);
 			return;
 		}
@@ -174,7 +174,7 @@ milestokm = function(miles, message, bot) {
 	message.channel.send(miles*1.609 + " km. ");
 }
 
-help = function(message) { 
+help = function(message) {
 
 	message.channel.send({embed: {
     color: 1237308,
@@ -218,8 +218,12 @@ help = function(message) {
         value: "Sends link to Mr. Murphy source code. "
       },
       {
-        name: ".play (name)",
-        value: "Queue a song/playlist by URL or name"
+        name: ".play",
+        value: "Start playing queue"
+      },
+      {
+        name: ".youtube",
+        value: "Queue a Youtube song/playlist by URL or name"
       },
       {
         name: ".remove",

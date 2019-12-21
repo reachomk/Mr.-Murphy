@@ -1,0 +1,104 @@
+[2019-12-21T08:15:38.420Z] (error): An invalid token was provided.
+[2019-12-21T08:17:01.512Z] (error): An invalid token was provided.
+[2019-12-21T08:17:44.393Z] (error): An invalid token was provided.
+[2019-12-21T08:18:43.810Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:18:43.815Z] (debug): Bot Ready
+[2019-12-21T08:19:13.123Z] (debug): Bot Command: ;play ree
+[2019-12-21T08:19:18.100Z] (debug): Bot Command: ;youtube ree
+[2019-12-21T08:19:23.779Z] (debug): Bot Command: ;play
+[2019-12-21T08:19:31.056Z] (debug): Console Reader Disconnected
+[2019-12-21T08:19:57.119Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:19:57.124Z] (debug): Bot Ready
+[2019-12-21T08:20:03.544Z] (debug): Console Reader Disconnected
+[2019-12-21T08:22:41.655Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:22:41.660Z] (debug): Bot Ready
+[2019-12-21T08:22:47.752Z] (debug): Console Reader Disconnected
+[2019-12-21T08:22:59.914Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:22:59.919Z] (debug): Bot Ready
+[2019-12-21T08:23:08.570Z] (debug): Bot Command: .deep_thoughts
+[2019-12-21T08:23:31.986Z] (debug): Bot Command: .youtube soviet anthem
+[2019-12-21T08:23:44.220Z] (debug): Bot Command: .youtube the internationale
+[2019-12-21T08:24:13.699Z] (debug): Bot Command: .youtube https://www.youtube.com/watch?v=aBkTkxKDduc
+[2019-12-21T08:24:39.784Z] (debug): Console Reader Disconnected
+[2019-12-21T08:28:31.757Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:28:31.762Z] (debug): Bot Ready
+[2019-12-21T08:28:42.133Z] (debug): Bot Command: .youtube https://www.youtube.com/watch?v=aBkTkxKDduc
+[2019-12-21T08:29:13.240Z] (debug): Console Reader Disconnected
+[2019-12-21T08:32:49.882Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:32:49.888Z] (debug): Bot Ready
+[2019-12-21T08:33:15.506Z] (debug): Bot Command: .play https://www.youtube.com/watch?v=aBkTkxKDduc
+[2019-12-21T08:33:23.962Z] (debug): Bot Command: .youtube https://www.youtube.com/watch?v=aBkTkxKDduc
+[2019-12-21T08:33:35.001Z] (debug): Console Reader Disconnected
+[2019-12-21T08:35:41.165Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:35:41.169Z] (debug): Bot Ready
+[2019-12-21T08:35:45.844Z] (debug): Bot Command: .youtube https://www.youtube.com/watch?v=aBkTkxKDduc
+[2019-12-21T08:36:00.793Z] (debug): Console Reader Disconnected
+[2019-12-21T08:37:01.464Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:37:01.468Z] (debug): Bot Ready
+[2019-12-21T08:37:12.543Z] (debug): Bot Command: .youtube https://www.youtube.com/watch?v=aBkTkxKDduc
+[2019-12-21T08:37:55.633Z] (debug): Console Reader Disconnected
+[2019-12-21T08:44:11.310Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:44:11.315Z] (debug): Bot Ready
+[2019-12-21T08:44:18.649Z] (debug): Bot Command: .youtube roundabout
+[2019-12-21T08:45:33.849Z] (debug): Console Reader Disconnected
+[2019-12-21T08:46:51.712Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:46:51.716Z] (debug): Bot Ready
+[2019-12-21T08:46:58.016Z] (debug): Bot Command: .youtube sweden
+[2019-12-21T08:47:09.217Z] (debug): Bot Command: .play
+[2019-12-21T08:47:18.539Z] (debug): Bot Command: .skip[
+[2019-12-21T08:47:18.541Z] (debug): Stream Ended: user
+[2019-12-21T08:47:25.265Z] (debug): Console Reader Disconnected
+[2019-12-21T08:47:46.319Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:47:46.325Z] (debug): Bot Ready
+[2019-12-21T08:47:58.685Z] (debug): Bot Command: .youtube roundabout
+[2019-12-21T08:48:01.684Z] (debug): Bot Command: .youtube https://www.youtube.com/watch?v=aBkTkxKDduc
+[2019-12-21T08:48:05.245Z] (debug): Bot Command: .play
+[2019-12-21T08:48:22.410Z] (debug): Console Reader Disconnected
+[2019-12-21T08:49:41.725Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:49:41.730Z] (debug): Bot Ready
+[2019-12-21T08:49:44.919Z] (debug): Bot Command: .help
+[2019-12-21T08:49:52.233Z] (debug): Console Reader Disconnected
+[2019-12-21T08:54:33.590Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:54:33.594Z] (debug): Bot Ready
+[2019-12-21T08:54:37.035Z] (debug): Bot Command: .help
+[2019-12-21T08:54:42.025Z] (debug): Console Reader Disconnected
+[2019-12-21T08:57:00.052Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:57:00.056Z] (debug): Bot Ready
+[2019-12-21T08:57:13.396Z] (debug): Bot Command: .youtube sweden
+[2019-12-21T08:57:37.520Z] (debug): Bot Command: .youtube all i want for christmas is you eurobeat
+[2019-12-21T08:57:44.508Z] (debug): Bot Command: .play
+[2019-12-21T08:57:53.008Z] (debug): Bot Command: .list
+[2019-12-21T08:58:02.723Z] (debug): Bot Command: .remove 2
+[2019-12-21T08:58:08.617Z] (debug): Console Reader Disconnected
+[2019-12-21T08:58:49.353Z] (debug): Rhythm Bot Online!
+[2019-12-21T08:58:49.358Z] (debug): Bot Ready
+[2019-12-21T08:58:54.071Z] (debug): Bot Command: .queue
+[2019-12-21T08:59:03.335Z] (debug): Bot Command: .youtube dave rodgers christmas
+[2019-12-21T08:59:08.093Z] (debug): Bot Command: .queue
+[2019-12-21T08:59:09.910Z] (debug): Bot Command: .play
+[2019-12-21T08:59:19.557Z] (debug): Bot Command: .youtube deja vu
+[2019-12-21T08:59:25.295Z] (debug): Bot Command: .youtube never gonna give you up
+[2019-12-21T08:59:26.504Z] (debug): Bot Command: .queue
+[2019-12-21T08:59:34.451Z] (debug): Bot Command: .queue
+[2019-12-21T08:59:39.174Z] (debug): Bot Command: .remove 2
+[2019-12-21T08:59:41.296Z] (debug): Bot Command: .skip
+[2019-12-21T08:59:41.298Z] (debug): Stream Ended: user
+[2019-12-21T09:00:24.727Z] (debug): Bot Command: .skip
+[2019-12-21T09:00:24.729Z] (debug): Stream Ended: user
+[2019-12-21T09:00:31.301Z] (debug): Bot Command: .youtube rickroll
+[2019-12-21T09:00:35.601Z] (debug): Bot Command: .play
+[2019-12-21T09:00:42.615Z] (debug): Bot Command: .leave
+[2019-12-21T09:00:42.616Z] (debug): Stream Ended: user
+[2019-12-21T09:00:46.422Z] (debug): Bot Command: .play
+[2019-12-21T09:01:02.055Z] (debug): Bot Command: .youtube sweden
+[2019-12-21T09:01:05.277Z] (debug): Bot Command: .skip
+[2019-12-21T09:01:05.280Z] (debug): Stream Ended: user
+[2019-12-21T09:01:20.518Z] (debug): Bot Command: .youtube rickroll
+[2019-12-21T09:01:28.816Z] (debug): Bot Command: .youtube giornos theme
+[2019-12-21T09:01:33.158Z] (debug): Bot Command: .queue
+[2019-12-21T09:01:37.707Z] (debug): Bot Command: .remove 2
+[2019-12-21T09:01:41.397Z] (debug): Bot Command: .skip
+[2019-12-21T09:01:41.398Z] (debug): Stream Ended: user
+[2019-12-21T09:01:50.198Z] (debug): Bot Command: .leave
+[2019-12-21T09:01:50.200Z] (debug): Stream Ended: user
+[2019-12-21T09:01:55.569Z] (debug): Console Reader Disconnected

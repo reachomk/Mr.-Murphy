@@ -1,0 +1,12 @@
+{
+  "name": "rhythm-bot",
+  "version": "2.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app",
+    "build": "tsc"
+  },
+  "author": "Malexion",
+  "license": "ISC"
+}

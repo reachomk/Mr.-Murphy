@@ -245,7 +245,7 @@ class MediaPlayer {
                 this.status.setBanner(`Up Next: "${item.name}" Requested by: ${item.requestor}`);
         }
         else
-            this.status.setBanner(`No Songs In Queue`);
+            this.status.setBanner(`Use .help to see commands`);
     }
 }
 exports.MediaPlayer = MediaPlayer;

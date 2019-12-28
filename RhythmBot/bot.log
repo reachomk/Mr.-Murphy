@@ -102,3 +102,49 @@
 [2019-12-21T09:01:50.198Z] (debug): Bot Command: .leave
 [2019-12-21T09:01:50.200Z] (debug): Stream Ended: user
 [2019-12-21T09:01:55.569Z] (debug): Console Reader Disconnected
+[2019-12-22T02:28:13.803Z] (error): An invalid token was provided.
+[2019-12-27T16:42:11.487Z] (debug): Disconnected!
+[2019-12-27T16:42:11.489Z] (error): Incorrect login details were provided.
+[2019-12-27T16:42:42.048Z] (debug): Disconnected!
+[2019-12-27T16:42:42.051Z] (error): Incorrect login details were provided.
+[2019-12-27T16:45:50.491Z] (debug): Disconnected!
+[2019-12-27T16:45:50.493Z] (error): Incorrect login details were provided.
+[2019-12-27T16:48:24.257Z] (debug): Rhythm Bot Online!
+[2019-12-27T16:48:24.259Z] (debug): Bot Ready
+[2019-12-27T16:48:36.317Z] (debug): Console Reader Disconnected
+[2019-12-27T16:54:26.628Z] (debug): Rhythm Bot Online!
+[2019-12-27T16:54:26.631Z] (debug): Bot Ready
+[2019-12-27T16:57:28.027Z] (debug): Console Reader Disconnected
+[2019-12-27T16:57:54.380Z] (debug): Rhythm Bot Online!
+[2019-12-27T16:57:54.383Z] (debug): Bot Ready
+[2019-12-27T16:59:12.448Z] (debug): Console Reader Disconnected
+[2019-12-27T17:00:04.376Z] (debug): Rhythm Bot Online!
+[2019-12-27T17:00:04.378Z] (debug): Bot Ready
+[2019-12-27T19:57:29.300Z] (debug): Rhythm Bot Online!
+[2019-12-27T19:57:29.304Z] (debug): Bot Ready
+[2019-12-27T20:19:48.756Z] (debug): Bot Command: .ping
+[2019-12-28T00:19:20.551Z] (debug): Console Reader Disconnected
+[2019-12-28T00:29:08.000Z] (debug): Rhythm Bot Online!
+[2019-12-28T00:29:08.002Z] (debug): Bot Ready
+[2019-12-28T00:29:36.775Z] (debug): Console Reader Disconnected
+[2019-12-28T00:32:13.934Z] (debug): Rhythm Bot Online!
+[2019-12-28T00:32:13.936Z] (debug): Bot Ready
+[2019-12-28T00:59:01.714Z] (debug): Console Reader Disconnected
+[2019-12-28T01:03:47.670Z] (debug): Rhythm Bot Online!
+[2019-12-28T01:03:47.673Z] (debug): Bot Ready
+[2019-12-28T01:04:36.340Z] (debug): Bot Command: .play music
+[2019-12-28T01:04:46.955Z] (debug): Bot Command: .youtube music
+[2019-12-28T01:04:54.086Z] (debug): Bot Command: .play
+[2019-12-28T01:05:03.318Z] (debug): Bot Command: .skip
+[2019-12-28T01:05:03.319Z] (debug): Stream Ended: user
+[2019-12-28T01:05:21.944Z] (debug): Bot Command: .play music
+[2019-12-28T01:05:23.633Z] (debug): Bot Command: .youtube reee
+[2019-12-28T01:05:27.731Z] (debug): Bot Command: .play
+[2019-12-28T01:05:39.331Z] (debug): Bot Command: .skip
+[2019-12-28T01:05:39.331Z] (debug): Stream Ended: user
+[2019-12-28T01:06:33.965Z] (debug): Console Reader Disconnected
+[2019-12-28T01:08:51.771Z] (debug): Rhythm Bot Online!
+[2019-12-28T01:08:51.774Z] (debug): Bot Ready
+[2019-12-28T01:08:52.589Z] (debug): Console Reader Disconnected
+[2019-12-28T01:21:57.300Z] (debug): Rhythm Bot Online!
+[2019-12-28T01:21:57.302Z] (debug): Bot Ready

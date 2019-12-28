@@ -18,7 +18,7 @@ exports.commands = function(message, bot) {
 			dank(message, bot);
 			return;
 		}
-		if (message.content.includes("history_meme")|| message.content.includes("meme")) {
+		if (message.content.includes("history_meme")|| message.content.includes("meme")) { 
 			history_meme(message, bot);
 			return;
 		}
@@ -46,13 +46,13 @@ exports.commands = function(message, bot) {
 	else if (message.content.includes("km to miles")) {
 		var msg = message.content;
 		var msgArr = msg.split(" ");
-		var km = parseInt(msgArr[0]);
+		var km = parseFloat(msgArr[0]);
 		kmtomiles(km, message, bot)
 	}
 	else if (message.content.includes("miles to km")) {
 		var msg = message.content;
 		var msgArr = msg.split(" ");
-		var miles = parseInt(msgArr[0]);
+		var miles = parseFloat(msgArr[0]);
 		milestokm(miles, message, bot)
 	}
 }
@@ -144,7 +144,7 @@ animeme = async (message, bot) => {
 kmtomiles = function(message, bot) {
 	var msg = message.content;
 	var msgArr = msg.split(" ");
-	var km = parseInt(msgArr[1]);
+	var km = parseFloat(msgArr[1]);
 	message.channel.send(km/1.609 + " miles. ");
 }
 
@@ -152,8 +152,8 @@ kmtomiles = function(message, bot) {
 finals = function(message, bot) {
 	var msg = message.content;
 	var msgArr = msg.split(" ");
-	var current = parseInt(msgArr[1]);
-	var want = parseInt(msgArr[2]);
+	var current = parseFloat(msgArr[1]);
+	var want = parseFloat(msgArr[2]);
 	let out = ((want-current*(1-0.234))/0.234);
 	message.channel.send("You need "+ out + "% on the final to get what you want. ");
 }
@@ -166,7 +166,7 @@ kmtomiles = function(km, message, bot) {
 milestokm = function(message, bot) {
 	var msg = message.content;
 	var msgArr = msg.split(" ");
-	var miles = parseInt(msgArr[1]);
+	var miles = parseFloat(msgArr[1]);
 	message.channel.send(miles*1.609 + " km. ");
 }
 
@@ -174,7 +174,7 @@ milestokm = function(miles, message, bot) {
 	message.channel.send(miles*1.609 + " km. ");
 }
 
-help = function(message) {
+help = function(message) { 
 
 	message.channel.send({embed: {
     color: 1237308,
@@ -218,12 +218,8 @@ help = function(message) {
         value: "Sends link to Mr. Murphy source code. "
       },
       {
-        name: ".play",
-        value: "Start playing queue"
-      },
-      {
-        name: ".youtube",
-        value: "Queue a Youtube song/playlist by URL or name"
+        name: ".play (name)",
+        value: "Queue a song/playlist by URL or name"
       },
       {
         name: ".remove",
@@ -266,3 +262,4 @@ help = function(message) {
     });
 
 }
+

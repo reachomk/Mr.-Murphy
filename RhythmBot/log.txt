@@ -1,0 +1,51 @@
+src/app.ts(7,24): error TS2304: Cannot find name 'process'.
+src/app.ts(8,25): error TS2304: Cannot find name 'process'.
+src/app.ts(21,1): error TS2304: Cannot find name 'module'.
+src/bot/bot.ts(5,27): error TS2307: Cannot find module 'readline'.
+src/bot/console-reader.ts(5,27): error TS2307: Cannot find module 'readline'.
+src/bot/console-reader.ts(17,20): error TS2304: Cannot find name 'process'.
+src/bot/console-reader.ts(18,21): error TS2304: Cannot find name 'process'.
+src/bot/media.ts(3,26): error TS2307: Cannot find module 'stream'.
+src/directory.ts(2,23): error TS2307: Cannot find module 'path'.
+src/directory.ts(3,21): error TS2307: Cannot find module 'fs'.
+src/directory.ts(4,45): error TS2307: Cannot find module 'jsonfile'.
+src/directory.ts(6,39): error TS2304: Cannot find name '__dirname'.
+src/directory.ts(17,12): error TS2304: Cannot find name 'require'.
+../node_modules/discord.js/typings/index.d.ts(9,31): error TS2307: Cannot find module 'events'.
+../node_modules/discord.js/typings/index.d.ts(10,53): error TS2307: Cannot find module 'stream'.
+../node_modules/discord.js/typings/index.d.ts(11,31): error TS2307: Cannot find module 'child_process'.
+../node_modules/discord.js/typings/index.d.ts(60,27): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(62,26): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(93,34): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(94,32): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(104,68): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(105,67): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(215,68): error TS2304: Cannot find name 'Buffer'.
+../node_modules/discord.js/typings/index.d.ts(361,21): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(1202,44): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(1285,60): error TS2304: Cannot find name 'Buffer'.
+../node_modules/discord.js/typings/index.d.ts(1431,59): error TS2304: Cannot find name 'Buffer'.
+../node_modules/discord.js/typings/index.d.ts(1432,58): error TS2304: Cannot find name 'Buffer'.
+../node_modules/discord.js/typings/index.d.ts(1436,61): error TS2304: Cannot find name 'Buffer'.
+../node_modules/discord.js/typings/index.d.ts(1437,60): error TS2304: Cannot find name 'Buffer'.
+../node_modules/discord.js/typings/index.d.ts(1536,27): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(1537,26): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(1542,34): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(1543,32): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(1545,68): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(1546,67): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/discord.js/typings/index.d.ts(1628,26): error TS2304: Cannot find name 'Buffer'.
+../node_modules/discord.js/typings/index.d.ts(1632,26): error TS2304: Cannot find name 'Buffer'.
+../node_modules/winston-transport/index.d.ts(6,23): error TS2688: Cannot find type definition file for 'node'.
+../node_modules/winston-transport/index.d.ts(8,25): error TS2307: Cannot find module 'stream'.
+../node_modules/winston/index.d.ts(4,23): error TS2688: Cannot find type definition file for 'node'.
+../node_modules/winston/index.d.ts(6,31): error TS2307: Cannot find module 'stream'.
+../node_modules/winston/index.d.ts(121,28): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/winston/index.d.ts(165,34): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/winston/lib/winston/config/index.d.ts(4,23): error TS2688: Cannot find type definition file for 'node'.
+../node_modules/winston/lib/winston/transports/index.d.ts(4,23): error TS2688: Cannot find type definition file for 'node'.
+../node_modules/winston/lib/winston/transports/index.d.ts(6,21): error TS2307: Cannot find module 'http'.
+../node_modules/winston/lib/winston/transports/index.d.ts(31,14): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/winston/lib/winston/transports/index.d.ts(77,13): error TS2503: Cannot find namespace 'NodeJS'.
+../node_modules/ytdl-core/typings/index.d.ts(2,33): error TS2307: Cannot find module 'http'.
+../node_modules/ytdl-core/typings/index.d.ts(3,28): error TS2307: Cannot find module 'stream'.

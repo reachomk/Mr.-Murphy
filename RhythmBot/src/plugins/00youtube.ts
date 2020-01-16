@@ -6,7 +6,7 @@ import { BotConfig } from '../bot/config';
 import * as ytdl from 'ytdl-core';
 import { YTSearcher, apiurl } from 'ytsearcher';
 
-const youtubeType = "youtube";
+const youtubeType = "add";
 
 export default class YoutubePlugin implements IBotPlugin {
   searcher: YTSearcher;

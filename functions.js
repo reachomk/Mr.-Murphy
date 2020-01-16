@@ -218,7 +218,7 @@ help = function(message) {
         value: "Sends link to Mr. Murphy source code. "
       },
       {
-        name: ".youtube (name)",
+        name: ".add (name)",
         value: "Queue a song/playlist by URL or name"
       },
             {

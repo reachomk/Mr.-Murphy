@@ -210,6 +210,10 @@ help = function(message) {
         value: "Sends a history meme. "
       },
       {
+        name: ".bio_meme",
+        value: "Sends a biology meme. "
+      },
+      {
         name: ".animeme",
         value: "Sends an animeme. "
       },

@@ -1,7 +1,17 @@
 const deep_thoughts = require('./deep_thoughts.js').quotes
+const world = true;
+
 
 exports.commands = function(message, bot) {
 	if (message.content.startsWith(".")) {
+		if(message.content.includes("setBio")){
+			world = false;
+			return;
+		}
+		if(message.content.includes("setWorld")){
+			world = true;
+			return;
+		}
 		if (message.content.includes("deep_thoughts")|| message.content.includes("deep_thought")) {
 			message.channel.send(deep_thoughts[Math.floor(Math.random() * deep_thoughts.length)] + " - Jaq Huundi");
 			return;
@@ -18,10 +28,15 @@ exports.commands = function(message, bot) {
 			dank(message, bot);
 			return;
 		}
-		if (message.content.includes("history_meme")|| message.content.includes("meme")) { 
-			history_meme(message, bot);
+		if (message.content.includes("history_meme")|| message.content.includes("meme")) {
+			if (world == true) { 
+				history_meme(message, bot);
+				return;
+			}
+			bio_meme(message, bot);
 			return;
 		}
+
 		if (message.content.includes("kmtomiles")) {
 			kmtomiles(message, bot);
 			return;
@@ -59,6 +74,21 @@ exports.commands = function(message, bot) {
 
 //
 history_meme = async (message, bot) => {
+	const snekfetch = require('snekfetch');
+    try {
+        const { body } = await snekfetch
+            .get('https://www.reddit.com/r/biologymemes.json?sort=top&t=week')
+            .query({ limit: 800 });
+        const allowed = message.channel.nsfw ? body.data.children : body.data.children.filter(post => !post.data.over_18);
+        if (!allowed.length) return message.channel.send('It seems we are out of fresh memes!, Try again later.');
+        const randomnumber = Math.floor(Math.random() * allowed.length)
+        message.channel.send(allowed[randomnumber].data.url)
+    } catch (err) {
+        return console.log(err);
+    }
+}
+
+bio_meme = async (message, bot) => {
 	const snekfetch = require('snekfetch');
     try {
         const { body } = await snekfetch

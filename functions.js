@@ -1,17 +1,7 @@
 const deep_thoughts = require('./deep_thoughts.js').quotes
-var world = true;
-
 
 exports.commands = function(message, bot) {
 	if (message.content.startsWith(".")) {
-		if(message.content.includes("setBio")){
-			world = false;
-			return;
-		}
-		if(message.content.includes("setWorld")){
-			world = true;
-			return;
-		}
 		if (message.content.includes("deep_thoughts")|| message.content.includes("deep_thought")) {
 			message.channel.send(deep_thoughts[Math.floor(Math.random() * deep_thoughts.length)] + " - Jaq Huundi");
 			return;
@@ -29,10 +19,10 @@ exports.commands = function(message, bot) {
 			return;
 		}
 		if (message.content.includes("history_meme")|| message.content.includes("meme")) {
-			if (world == true) { 
-				history_meme(message, bot);
-				return;
-			}
+			history_meme(message, bot);
+			return;
+		}
+		if (message.content.includes("bio_meme")) {
 			bio_meme(message, bot);
 			return;
 		}

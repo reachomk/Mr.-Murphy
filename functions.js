@@ -1,5 +1,5 @@
 const deep_thoughts = require('./deep_thoughts.js').quotes
-const world = true;
+var world = true;
 
 
 exports.commands = function(message, bot) {
